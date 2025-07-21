@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stkgui>
+    <div x="0" y="0" width="100%" height="100%" layout="vertical-row" >
+        <icon id="logo" align="center" proportion="5" width="90%" icon="gui/icons/logo.png"/>
+
+        <buttonbar id="menu_toprow" proportion="3" width="90%" align="center">
+            <icon-button id="new" width="128" height="128"
+                         icon="gui/icons/menu_race.png" focus_icon="gui/icons/menu_race_focus.png"
+                         I18N="Main menu button" text="Singleplayer" word_wrap="true"/>
+            <icon-button id="online" width="128" height="128"
+                         icon="gui/icons/menu_online.png" focus_icon="gui/icons/menu_online_focus.png"
+                         I18N="Main menu button" text="Online" word_wrap="true"/>
+        </buttonbar>
+
+        <spacer width="10" height="6%"/>
+    </div>
+
+    <div x="0" y="0" width="100%" height="fit" layout="vertical-row">
+        <button id="user-id" width="12f" height="fit" align="right"/>
+    </div>
+</stkgui>
