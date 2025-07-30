@@ -15,7 +15,11 @@
         <spacer width="10" height="6%"/>
     </div>
 
-    <div x="0" y="0" width="100%" height="fit" layout="vertical-row">
-        <button id="user-id" width="12f" height="fit" align="right"/>
+    <div x="0" y="0" width="100%" height="fit" layout="horizontal-row">
+        <spacer proportion="1" />
+        <button id="user-id" width="12f" height="fit"/>
+        <icon-button id="options" width="128" height="128"
+                     icon="gui/icons/main_options.png"
+                     I18N="Main menu button" text="Options" word_wrap="true"/>
     </div>
 </stkgui>
